@@ -169,6 +169,7 @@ vector<Word>reference;
 150 synchronization 校准
 */
 void init(){
+	cout<<"输入单词库:\n";
 	string t;
 	while(getline(cin,t)){
 		if(t=="")break;
