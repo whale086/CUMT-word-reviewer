@@ -67,7 +67,7 @@ vector<Word>reference;
 48 defy 反抗
 49 overwhelming 压倒性的
 50 indulge 放纵
-51 get a crush on
+51 get a crush on 迷恋上
 52 nurture 培养
 53 self-restraint 自我克制
 54 compatibility 兼容
@@ -104,7 +104,7 @@ vector<Word>reference;
 85 as to 至于；关于
 86 property 地产
 87 ethic 伦理
-88 liberality胸襟宽广
+88 liberality 胸襟宽广
 89 impermanent 临时的
 90 attributed 归因于
 91 gauged 测量
@@ -129,7 +129,7 @@ vector<Word>reference;
 110 hot under the collar 困窘的；尴尬的；发怒的
 111 disciplines 训练；锻炼
 112 fake 假的
-113 take a grip on 抓住 
+113 take a grip on 抓住
 114 clung to 紧紧抓住
 115 qualify 取得资格
 116 twisted my arm 扭我的胳膊
@@ -162,7 +162,7 @@ vector<Word>reference;
 143 coincide with 与··相符、一致
 144 resumes 重新开始
 145 eccentricities 怪癖
-146 learning form 
+146 learning from 从··学到
 147 subtract 减去
 148 subject 话题
 149 pharmacy 药房
@@ -237,7 +237,7 @@ void solve(){
 		line();
 		for(int i=0;i<4;i++){
 			if(Keys[i]==ans)tans=i;
-			cout<<i+1<<" "<<reference[Keys[i]].wd<<" "<<reference[Keys[i]].mean<<"\n";
+			cout<<i+1<<" "<<reference[Keys[i]].mean<<" "<<reference[Keys[i]].wd<<"\n";
 		}
 		line();
 		show();
